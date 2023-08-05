@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./WeatherAPI.css";
 import SearchForm from "./SearchForm";
-const API_KEY = "717041d8379474a9c5d67032f54beb0d";
+const API_KEY = "key";
 
 const convertToDate = (milliSeconds) => {
   const date = new Date(milliSeconds);
